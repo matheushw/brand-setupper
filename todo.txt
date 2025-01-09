@@ -1,0 +1,38 @@
+# Tarefas do Painel de Configuração
+
+## Tarefa 1: Configuração Básica
+- [x] Criar página inicial do painel
+- [x] Desenhar e implementar componente de card de navegação
+- [x] Adicionar card de Configuração de Marca na página inicial
+- [x] Criar rota de configuração de marca
+- [x] Configurar componentes básicos de UI (formulários, botões)
+- [x] Adicionar estilização com TailwindCSS
+
+## Tarefa 2: Fluxo de Configuração
+- [x] Criar estrutura de múltiplas etapas
+- [x] Implementar indicador de progresso
+- [x] Adicionar etapa de credenciais Auth0
+- [x] Implementar navegação entre etapas
+
+## Tarefa 3: Validação e Dados
+- [x] Implementar validação do CNPJ
+- [ ] Implementar validação das credenciais Auth0
+- [ ] Criar endpoints da API para operações com marcas
+- [ ] Implementar persistência de dados
+
+## Tarefa 4: Etapas Adicionais
+- [ ] Implementar etapa de endereço
+- [ ] Implementar etapa de configurações fiscais
+- [ ] Implementar etapa de revisão
+- [ ] Adicionar confirmação final
+
+## Tarefa 5: Polimento
+- [ ] Adicionar estados de carregamento
+- [ ] Implementar tratamento de erros
+- [ ] Escrever testes
+- [ ] Adicionar documentação
+
+## Próximos Passos:
+1. Implementar validação das credenciais Auth0
+2. Criar as próximas etapas do assistente
+3. Adicionar integração com a API
