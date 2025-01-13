@@ -37,6 +37,13 @@ function NavigationCard({ title, description, to, icon }: NavigationCardProps) {
 }
 
 export default function Index() {
+  // Clear all form states when accessing the index page
+  if (typeof window !== 'undefined') {
+    sessionStorage.removeItem('auth0Credentials');
+    sessionStorage.removeItem('loginCredentials');
+    sessionStorage.removeItem('brandBasicInfo');
+  }
+
   return (
     <div className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-7xl mx-auto">

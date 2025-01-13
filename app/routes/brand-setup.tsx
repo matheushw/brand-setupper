@@ -13,14 +13,19 @@ const steps: Step[] = [
     description: "Configure as credenciais"
   },
   {
+    id: "login",
+    title: "Credenciais de Acesso",
+    description: "Configure email e senha"
+  },
+  {
     id: "basic",
     title: "Informações Básicas",
     description: "Dados básicos da marca"
   },
   {
-    id: "address",
-    title: "Endereço",
-    description: "Localização da marca"
+    id: "location",
+    title: "Lojas",
+    description: "Lojas da marca"
   },
   {
     id: "fiscal",
